@@ -14,3 +14,8 @@ Bij deze opdracht ben ik gaan kijken naar hoe ik de kleur en de snelheid van mij
 ### Adafruit IO
 
 ### Telegram Bot
+
+Bij deze opdracht ben ik een Telegram Bot gaan activeren voor het aan- en uitzetten van de led op mijn Node MCU. Deze zou volgens commando's moeten gaan, echter lukte dat niet bij mij. Ik had de volgende [bron](https://randomnerdtutorials.com/telegram-control-esp32-esp8266-nodemcu-outputs/) gebruikt.
+
+1. Ik had als eerst een Telegram Bot aangemaakt met Botfather.
+   <img src="img/3.jpg">
