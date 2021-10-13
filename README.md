@@ -6,8 +6,10 @@ Here's how the quikstart went:
 1. First Download Arduino.
 2.
 
-After the quickstart I've worked on some assignments:
+## After the quickstart I've worked on some assignments:
 
-- [LED color changing](https://github.com/ZahraAhmadi4/iotmanual/opdracht1.md).
-- [Adafruit IO](https://github.com/ZahraAhmadi4/iotmanual/opdracht2.md).
-- [Telegram Bot](https://github.com/ZahraAhmadi4/iotmanual/opdracht3.md).
+### LED color changing
+
+### Adafruit IO
+
+### Telegram Bot
