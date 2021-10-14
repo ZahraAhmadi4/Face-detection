@@ -18,4 +18,15 @@ Bij deze opdracht ben ik gaan kijken naar hoe ik de kleur en de snelheid van mij
 Bij deze opdracht ben ik een Telegram Bot gaan activeren voor het aan- en uitzetten van de led op mijn Node MCU. Deze zou volgens commando's moeten gaan, echter lukte dat niet bij mij. Ik had de volgende [bron](https://randomnerdtutorials.com/telegram-control-esp32-esp8266-nodemcu-outputs/) gebruikt.
 
 1. Ik had als eerst een Telegram Bot aangemaakt met Botfather.
-   <img src="img/3.jpg">
+2. Het wifinetwerk aangesloten.
+3. De BotToken en de chat-ID in de code bijgevoegd.
+
+Nadat ik de bovenstaande stappen had uitgevoerd en mijn ledlamp met de bot wilde besturen, lukte dat niet.
+
+<img src="img/6.jpg" width=400px>
+
+Na wat onderzoek kwam ik erachter dat het volgende stukje code niet goed geschreven was:
+`const char BotToken = "2074720637:AAHs0U6tWqu0JWxoAQSHMJ0f4Dwnj05P31U";`
+
+Dat heb ik veranderd naar het volgende:
+`#define BotToken "2074720637:AAHs0U6tWqu0JWxoAQSHMJ0f4Dwnj05P31U"`
