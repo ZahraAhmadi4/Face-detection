@@ -21,7 +21,15 @@ Bij deze opdracht ben ik een Telegram Bot gaan activeren voor het aan- en uitzet
 2. Het wifinetwerk aangesloten.
 3. De BotToken en de chat-ID in de code bijgevoegd.
 
+Ik kreeg eerst een error:
+<img src="img/error.png" width=400px>
+
+Het bleek dat ik een library niet had geinstalleerd, dus heb ik dat ook gedaan:
+<img src="img/library.png" width=400px>
+
 Nadat ik de bovenstaande stappen had uitgevoerd en mijn ledlamp met de bot wilde besturen, lukte dat niet.
+<img src="wifi.png" width=400px>
+Ik had wel verbinding met het wifi-netwerk.
 
 <img src="img/6.jpg" width=400px>
 
