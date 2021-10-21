@@ -1,4 +1,4 @@
-# SMART ENTRY - FACE RECOGNITION
+# Face Recognition
 
 Making a system that recognizes faces.
 
