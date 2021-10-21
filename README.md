@@ -6,16 +6,6 @@ Making a system that recognizes faces.
 
 This project is a starting guide to how to set up Python, Pycharm and opencv. Besides that we're going to focus on face detection. For this you need a computer with a webcam. You can also use an external webcam, meaning you will have to write more codes in order to make that succeed. In this lesson we’re only going to focus on a computer with an internal webcam.
 
-## Table of contents
-
-- [Technologies](#technologies)
-- [Step 1 - Installing Python](#step-1-installing-python)
-- [Technologies](#technologies)
-- [Technologies](#technologies)
-- [Technologies](#technologies)
-- [Technologies](#technologies)
-- [Technologies](#technologies)
-
 #### Technologies:
 
 - Pycharm
@@ -23,7 +13,7 @@ This project is a starting guide to how to set up Python, Pycharm and opencv. Be
 - Opencv
 - Haarcascade
 
-## Step 1 - Installing Python
+## Step 1: Installing Python
 
 1. Go to https://www.python.org/downloads/ and download Python for the operating system of your computer.
 2. Follow the instructions of your computer once downloaded and make the installation complete.
