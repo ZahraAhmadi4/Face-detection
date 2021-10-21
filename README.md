@@ -9,7 +9,7 @@ This project is a starting guide to how to set up Python, Pycharm and opencv. Be
 ## Table of contents
 
 - [Technologies](#technologies)
-- [Step 1: Installing Python](#step1:installing-python)
+- [Step 1: Installing Python](#step1-installing-python)
 - [Technologies](#technologies)
 - [Technologies](#technologies)
 - [Technologies](#technologies)
