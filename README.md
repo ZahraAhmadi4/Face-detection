@@ -9,7 +9,7 @@ This project is a starting guide to how to set up Python, Pycharm and opencv. Be
 ## Table of contents
 
 - [Technologies](#technologies)
-- [Step 1: Installing Python](#step 1: installing python)
+- [Step 1 - Installing Python](#step1-installing-python)
 - [Technologies](#technologies)
 - [Technologies](#technologies)
 - [Technologies](#technologies)
@@ -23,7 +23,7 @@ This project is a starting guide to how to set up Python, Pycharm and opencv. Be
 - Opencv
 - Haarcascade
 
-## Step 1: Installing Python
+## Step 1 - Installing Python
 
 1. Go to https://www.python.org/downloads/ and download Python for the operating system of your computer.
 2. Follow the instructions of your computer once downloaded and make the installation complete.
