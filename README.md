@@ -116,9 +116,51 @@ The file will now open as a web-file. Right-click with your mouse on the file an
 
 We’re all set! Let’s write the code for the face detection.
 
-## Step 8: Write and run the code.
+## Step 8: Write and run the code
 
 Write and run the following code. Mine didn’t work..
 
 <img src="img/17.png">
 It looks like it can't find the Haarcascade file.
+
+## Step 9: Doing research and trying other things
+
+After some research I tried bunch of different things. I copy pasted the code from the Haarcascade file in my regulat text editor and saved it as a .xml file. I tried installing other libraries like 'numpy' since that's another way to make a face detection program. That didn't work either. But then I came across the project of someone on the web and that helped me a lot. [Click here to see it](https://answers.opencv.org/question/177778/why-i-got-stuck-in-faces-face_detectordetectmultiscalegray-13-5/)
+
+```
+import cv2
+size = 4
+
+# The internal webcam is called a 0, so we will use that.
+webcam = cv2.VideoCapture(0)
+
+# Load the face classifier file.
+classifier = cv2.CascadeClassifier('face.xml')
+
+while True:
+    (rval, im) = webcam.read()
+    # Flip to act as a mirror.
+    im=cv2.flip(im,1,1)
+
+    # This is for resizing the image to speed up detection.
+    mini = cv2.resize(im, (im.shape[1] // size, im.shape[0] // size))
+
+    # This line code is for detecting faces.
+    faces = classifier.detectMultiScale(mini)
+
+    # This draws rectangles around each faces.
+    for f in faces:
+        (x, y, w, h) = [v * size for v in f] #Scale the shapesize backup
+        cv2.rectangle(im, (x, y), (x + w, y + h),(0,255,0),thickness=4)
+
+    # This shows the image.
+    cv2.imshow('Face Detection for SMART ENTRY',   im)
+    key = cv2.waitKey(10)
+
+```
+
+<img src="img/18.png">
+Here you see my face being detected.
+
+<img src="img/19.png">
+It also works on images on your phone and other people on the webcam.
