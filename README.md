@@ -125,7 +125,7 @@ It looks like it can't find the Haarcascade file.
 
 ## Step 9: Doing research and trying other things
 
-After some research I tried bunch of different things. I copy pasted the code from the Haarcascade file in my regulat text editor and saved it as a .xml file. I tried installing other libraries like 'numpy' since that's another way to make a face detection program. That didn't work either. But then I came across the project of someone on the web and that helped me a lot. [Click here to see it](https://answers.opencv.org/question/177778/why-i-got-stuck-in-faces-face_detectordetectmultiscalegray-13-5/)
+After some research I tried a bunch of different things. I copy pasted the code from the Haarcascade file in my regular text editor and saved it as a .xml file. I tried installing other libraries like 'numpy' since that's another way to make a face detection program. That didn't work either. But then I came across the project of someone on the web and that helped me a lot. [Click here to see it](https://answers.opencv.org/question/177778/why-i-got-stuck-in-faces-face_detectordetectmultiscalegray-13-5/) I made use of this code and customized it and cut the unnecessary lines of code.
 
 ```
 import cv2
