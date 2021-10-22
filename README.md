@@ -127,7 +127,7 @@ It looks like it can't find the Haarcascade file.
 
 After some research I tried a bunch of different things. I copy pasted the code from the Haarcascade file in my regular text editor and saved it as a .xml file. I tried installing other libraries like 'numpy' since that's another way to make a face detection program. That didn't work either. But then I came across the project of someone on the web and that helped me a lot. [Click here to see it](https://answers.opencv.org/question/177778/why-i-got-stuck-in-faces-face_detectordetectmultiscalegray-13-5/). I made use of this code and customized it and cut the unnecessary lines of code.
 
-#### The code
+#### The code:
 
 ```
 import cv2
@@ -147,7 +147,7 @@ while True:
     # This is for resizing the image to speed up detection.
     mini = cv2.resize(im, (im.shape[1] // size, im.shape[0] // size))
 
-    # This line code is for detecting faces.
+    # This line of code is for detecting faces.
     faces = classifier.detectMultiScale(mini)
 
     # This draws rectangles around each faces.
@@ -155,18 +155,19 @@ while True:
         (x, y, w, h) = [v * size for v in f] #Scale the shapesize backup
         cv2.rectangle(im, (x, y), (x + w, y + h),(0,255,0),thickness=4)
 
-    # This shows the image.
+    # This shows the output.
     cv2.imshow('Face Detection for SMART ENTRY',   im)
     key = cv2.waitKey(10)
 
 ```
 
-#### The output I got
+#### The output I got:
 
-<img src="img/18.png">
 Here you see my face being detected.
+<img src="img/18.png">
 
-<img src="img/19.png">
 It also works on images on your phone and other people on the webcam.
+<img src="img/19.png">
 
 Woo! That's a wrap!
+<img src="img/20.png">
