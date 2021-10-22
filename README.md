@@ -170,4 +170,3 @@ It also works on images on your phone and other people on the webcam.
 <img src="img/19.png">
 
 Woo! That's a wrap!
-<img src="img/20.png" width="400">
