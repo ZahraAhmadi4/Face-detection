@@ -1,6 +1,7 @@
 # Face Recognition
 
-Making a system that recognizes faces.
+Making a system that detects faces.
+<img src="img/20.png" width="300">
 
 ## General info
 
