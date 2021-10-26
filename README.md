@@ -83,24 +83,29 @@ For the first coding lesson we’re going to need an image. Include an image fil
 Run the code by clicking on the play button on top.
 <img src="img/10.png">
 
-Now you get the image as an output. Congratulations! You’ve written your first lines of Python code.
+Now you get the image as an output.
 <img src="img/11.png">
+
+Congratulations! You’ve written your first lines of Python code.
 
 ## Step 6: Working with webcam
 
 We’re going to test the webcam as well, because we’re going to work on face detection later on. I had written this code and I got my first error.
 
-<img src="img/12.png">
-But Pycharm told me exactly what was going wrong and needed to be changed. It seemed to be this simple sign.
+<img src="img/12.png"> But Pycharm told me exactly what was going wrong and needed to be changed. It seemed to be this simple sign.
 
-<img src="img/13.png">
-So I changed the ; sign to : and I got another error. I checked the error and it seemed like it couldn’t read the lines 7 to 11 correctly. Maybe the measurements weren’t right.
+<img src="img/13.png"> So I changed the `;` sign to `:` and I got another error. I checked the error and it seemed like it couldn’t read the lines 7 to 11 correctly. Maybe the measurements weren’t right.
 
 But I removed those lines of code, just to see if that was the problem. And suddenly it seemed to work!
 
 <img src="img/14.png">
 
 If you want to change the width and height, I would suggest to search more about it on the internet. For me this was just a test and I didn’t really need to have the ‘right’ measurements, so I moved on to the project I actually wanted to work on.
+
+These are some resources that might help you with setting up the right camera paramters:
+
+- https://stackoverflow.com/questions/11420748/setting-camera-parameters-in-opencv-python
+- https://www.geeksforgeeks.org/sets-in-python/ (This is about how to use all the different sets in Python)
 
 ## Step 7: Download the Haarcascade file
 
@@ -118,10 +123,12 @@ We’re all set! Let’s write the code for the face detection.
 
 ## Step 8: Write and run the code
 
-Write and run the following code. Mine didn’t work..
+Write and run the following code. So mine didn’t work. The first thing you should do is checking the error you get in the console. When not understanding the error copy and paste it on the internet and search about it. So I did that, but I didn't really come to a solution.
 
 <img src="img/17.png">
-It looks like it can't find the Haarcascade file.
+What I could undertand from my error, was that it looked like it couldn't find the Haarcascade file.
+
+The error brought me more confusion, so I went back to the internet and did some more research on how to build a face detection program with Python and Pycharm.
 
 ## Step 9: Doing research and trying other things
 
@@ -170,3 +177,9 @@ It also works on images on your phone and other people on the webcam.
 <img src="img/19.png">
 
 Woo! That's a wrap!
+
+The next step for this face detection program would be to give it a dataset and make it recognise specific faces. That's technically a little more challenging, but definitely not impossible. If I had more time I would want to work on that, but this is also enough for me now. It is already a huge success I could make this work with all the erors I got.
+
+If you want to work on that, I got a good resource to make use of: https://www.c-sharpcorner.com/article/regonising-the-faces-by-capturing-the-faces-using-python/
+
+Good luck with your project!
