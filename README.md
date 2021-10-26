@@ -1,7 +1,7 @@
 # Face Recognition
 
 Making a system that detects faces.
-<img src="img/20.png" width="300">
+<img src="img/20.png" width="500">
 
 ## General info
 
