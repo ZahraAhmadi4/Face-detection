@@ -102,7 +102,7 @@ But I removed those lines of code, just to see if that was the problem. And sudd
 
 If you want to change the width and height, I would suggest to search more about it on the internet. For me this was just a test and I didn’t really need to have the ‘right’ measurements, so I moved on to the project I actually wanted to work on.
 
-These are some resources that might help you with setting up the right camera paramters:
+These are some resources that might help you with setting up the right camera parameters:
 
 - https://stackoverflow.com/questions/11420748/setting-camera-parameters-in-opencv-python
 - https://www.geeksforgeeks.org/sets-in-python/ (This is about how to use all the different sets in Python)
@@ -126,7 +126,7 @@ We’re all set! Let’s write the code for the face detection.
 Write and run the following code. So mine didn’t work. The first thing you should do is checking the error you get in the console. When not understanding the error copy and paste it on the internet and search about it. So I did that, but I didn't really come to a solution.
 
 <img src="img/17.png">
-What I could undertand from my error, was that it looked like it couldn't find the Haarcascade file.
+What I could understand from my error, was that it looked like it couldn't find the Haarcascade file.
 
 The error brought me more confusion, so I went back to the internet and did some more research on how to build a face detection program with Python and Pycharm.
 
@@ -178,7 +178,7 @@ It also works on images on your phone and other people on the webcam.
 
 Woo! That's a wrap!
 
-The next step for this face detection program would be to give it a dataset and make it recognise specific faces. That's technically a little more challenging, but definitely not impossible. If I had more time I would want to work on that, but this is also enough for me now. It is already a huge success I could make this work with all the erors I got.
+The next step for this face detection program would be to give it a dataset and make it recognise specific faces. That's technically a little more challenging, but definitely not impossible. If I had more time I would want to work on that, but this is also enough for me now. It is already a huge success I could make this work with all the errors I got.
 
 If you want to work on that, I got a good resource to make use of: https://www.c-sharpcorner.com/article/regonising-the-faces-by-capturing-the-faces-using-python/
 
