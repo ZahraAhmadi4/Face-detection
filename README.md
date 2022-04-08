@@ -1,4 +1,4 @@
-# Face Recognition
+# Face Detection
 
 Making a system that detects faces.
 
